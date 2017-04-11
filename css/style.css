@@ -177,3 +177,90 @@ body .stormtrooper-blog {
       -ms-flex-direction: column;
           flex-direction: column;
 }
+.stormtrooper-blog.is-small-screen .stormtrooper-blog__posts > .mdl-card.stormtrooper-helmet {
+  -webkit-order: 0;
+      -ms-flex-order: 0;
+          order: 0;
+}
+.stormtrooper-blog.is-small-screen .stormtrooper-blog__posts > .mdl-card.something-else {
+  -webkit-order: -1;
+      -ms-flex-order: -1;
+          order: -1;
+}
+.stormtrooper-blog .stormtrooper-helmet .mdl-card__media {
+  background-image: url('images/coffee.jpg');
+}
+.stormtrooper-blog .something-else .mdl-card__media {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-justify-content: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.stormtrooper-blog .something-else > button {
+  position: absolute;
+  top: 0;
+  right: 28px;
+  -webkit-transform: translate(0px, -28px);
+          transform: translate(0px, -28px);
+}
+.stormtrooper-blog .something-else .mdl-card__media {
+  font-size: 13px;
+  font-weight: 500;
+  border-top-left-radius: 2px;
+  border-top-right-radius: 2px;
+}
+.stormtrooper-blog .something-else .mdl-card__media img {
+  width: 64px;
+  height: 64px;
+  margin-bottom: 10px;
+}
+.stormtrooper-blog .something-else .mdl-card__supporting-text {
+  background-color: #F5F5F5;
+  border-bottom-left-radius: 2px;
+  border-bottom-right-radius: 2px;
+}
+.stormtrooper-blog .on-the-road-again .mdl-card__media {
+  background-image: url('images/road.jpg');
+}
+.stormtrooper-blog .shopping .mdl-card__media {
+  background-image: url('images/shopping.jpg');
+}
+.stormtrooper-blog .stormtrooper-blog__posts > .stormtrooper-nav {
+  margin: 12px 15px;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  color: white;
+  font-weight: 500;
+}
+.stormtrooper-blog .stormtrooper-blog__posts > .stormtrooper-nav > .stormtrooper-nav__button {
+  color: white;
+  text-decoration: none;
+}
+.stormtrooper-blog .stormtrooper-blog__posts > .stormtrooper-nav .mdl-button {
+  color: rgba(0,0,0,0.54);
+  background-color: white;
+}
+.stormtrooper-blog .stormtrooper-blog__posts > .stormtrooper-nav > .stormtrooper-nav__button:first-child .mdl-button {
+  margin-right: 16px;
+}
+.stormtrooper-blog .stormtrooper-blog__posts > .stormtrooper-nav > .stormtrooper-nav__button:last-child .mdl-button {
+  margin-left: 16px;
+}
