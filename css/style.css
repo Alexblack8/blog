@@ -148,3 +148,32 @@ body .stormtrooper-blog {
           justify-content: flex-start;
   height: auto;
 }
+.stormtrooper-blog .meta > .meta__favorites{
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin: 0 8px;
+  font-size: 13px;
+  font-weight: 500;
+}
+.stormtrooper-blog .meta > .meta__favorites .material-icons {
+  font-size: 2em;
+  cursor: pointer;
+  margin-left: 12px;
+}
+.stormtrooper-blog .mdl-card .meta.meta--fill {
+  -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+.stormtrooper-blog .meta > *:first-child {
+  margin-right: 16px;
+}
+.stormtrooper-blog .meta > * {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
