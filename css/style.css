@@ -59,3 +59,8 @@ body .stormtrooper-blog {
       -ms-flex-negative: 0;
           flex-shrink: 0;
 }
+.stormtrooper-blog.mdl-layout .mdl-layout__content {
+  padding-top: 230px;
+  position: relative;
+  -webkit-overflow-scrolling: touch;
+}
