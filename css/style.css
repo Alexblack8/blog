@@ -431,3 +431,76 @@ body .stormtrooper-blog {
   padding-top: 32px;
   padding-left: 48px;
 }
+.stormtrooper-blog--blogpost .stormtrooper-back {
+  position: absolute;
+  top: 16px;
+  left: 16px;
+  color: white;
+  z-index: 9999;
+}
+.stormtrooper-blog .section-spacer {
+  -webkit-flex-grow: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+.stormtrooper-blog .something-else {
+  overflow: visible;
+  z-index: 10;
+}
+.stormtrooper-blog .amazing .mdl-card__title {
+  background-color: #263238;
+}
+.stormtrooper-blog .minilogo {
+  width: 44px;
+  height: 44px;
+  background-image: url('images/avatar.png');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: 50%;
+  border-radius: 22px;
+  background-color: #F5F5F5;
+}
+
+/* Fixes for IE 10 */
+.mdl-grid {
+  display: -webkit-flex !important;
+  display: -ms-flexbox !important;
+  display: flex !important;
+}
+
+.social-btn {
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: transparent;
+  margin: 0 16px;
+  width: 24px;
+  height: 24px;
+  cursor: pointer;
+  opacity: 0.46;
+  border-radius: 2px;
+}
+.social-btn__twitter {
+  background-image: url('https://www.gstatic.com/images/icons/material/system/2x/post_twitter_black_24dp.png');
+}
+.social-btn__blogger {
+  background-image: url('https://www.gstatic.com/images/icons/material/system/2x/post_facebook_black_24dp.png');
+}
+.social-btn__gplus {
+  background-image: url('https://www.gstatic.com/images/icons/material/system/2x/post_gplus_black_24dp.png');
+}
+.social-btn__share {
+  color: rgba(0, 0, 0, 0.54);
+  background: transparent;
+}
+
+.stormtrooper-blog .mdl-mini-footer {
+  margin-top: 80px;
+  height: 120px;
+  padding: 40px;
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: white;
+  box-sizing: border-box;
+}
