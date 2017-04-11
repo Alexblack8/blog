@@ -264,3 +264,55 @@ body .stormtrooper-blog {
 .stormtrooper-blog .stormtrooper-blog__posts > .stormtrooper-nav > .stormtrooper-nav__button:last-child .mdl-button {
   margin-left: 16px;
 }
+.stormtrooper-blog .mdl-card > a {
+  color: inherit;
+  text-decoration: none;
+  font-weight: inherit;
+}
+.stormtrooper-blog .mdl-card h3 {
+  margin: 0;
+}
+.stormtrooper-blog .mdl-card h3 a {
+  text-decoration: none;
+}
+.stormtrooper-blog .mdl-card h3.quote:before, .stormtrooper-blog .mdl-card h3.quote:after {
+  display: block;
+  font-size: 3em;
+  margin-top: 0.5em;
+}
+.stormtrooper-blog .mdl-card h3.quote:before {
+  content: '“';
+}
+.stormtrooper-blog .mdl-card h3.quote:after {
+  content: '”';
+}
+.stormtrooper-blog--blogpost .custom-header {
+  background-color: transparent;
+}
+.stormtrooper-blog--blogpost .stormtrooper-blog__posts > .mdl-card .mdl-card__media {
+  background-image: url('images/road_big.jpg');
+  height: 280px;
+}
+.stormtrooper-blog--blogpost .comments {
+  background-color: #EEE;
+}
+.stormtrooper-blog--blogpost .meta > * {
+  -webkit-align-items: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.stormtrooper-blog--blogpost .meta + .mdl-card__supporting-text {
+  border: 0;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-direction: column;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+.stormtrooper-blog--blogpost .meta + .mdl-card__supporting-text p {
+  max-width: 512px;
+  margin: 16px auto;
+  font-size: 16px;
+  line-height: 28px;
+}
