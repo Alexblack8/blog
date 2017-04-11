@@ -82,3 +82,25 @@ body .stormtrooper-blog {
       -ms-flex-positive: 1;
           flex-grow: 1;
 }
+.stormtrooper-blog .mdl-card__media {
+  box-sizing: border-box;
+  background-size: cover;
+  padding: 24px;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-grow: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  -webkit-flex-direction: row;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-align-items: flex-end;
+      -ms-flex-align: end;
+          align-items: flex-end;
+  cursor: pointer;
+}
+.stormtrooper-blog .mdl-card__media a,
+.stormtrooper-blog .mdl-card__title a {
+  color: inherit;
+}
